@@ -1,5 +1,5 @@
 # Meet Apollo, your intuitive virtual nurse
-In the age of a pandemic, limited access to healthcare is our current, devastating reality. 
+In the age of a pandemic, limited access to healthcare is our current, devastating reality. <br>
 **Meet Apollo: our solution to this healthcare crisis, and your virtual nurse.**
 
 Apollo provides an intuitive interface that listens, documents and categorizes your symptoms during interactive virtual appointments. Based on these symptom logs, Apollo can suggest possible diagnoses and schedule appointments with a medical professional if necessary.
