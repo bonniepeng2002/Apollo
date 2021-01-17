@@ -12,7 +12,7 @@ Apollo mends the healthcare crisis by being:
 
 ## Preview
 <p>
-<img src="https://github.com/bonniepeng2002/Apollo/blob/main/images/Screenshot_1610885276.png" width="350px" height="auto">
+<img src="https://github.com/bonniepeng2002/Apollo/blob/main/ezgif.com-gif-maker.gif" width="350px" height="auto">
 <img src="https://github.com/bonniepeng2002/Apollo/blob/main/images/Screenshot_1610884950.png" width="350px" height="auto">
 <img src="https://github.com/bonniepeng2002/Apollo/blob/main/images/Screenshot_1610884944.png" width="350px" height="auto">
 <img src="https://github.com/bonniepeng2002/Apollo/blob/main/images/Screenshot_1610885187.png" width="350px" height="auto">
