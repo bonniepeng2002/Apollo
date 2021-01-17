@@ -10,4 +10,10 @@ Apollo mends the healthcare crisis by being:
 2. More interactive than competing symptom trackers;
 3. And a more proactive healthcare solution than mainstream telehealth.
 
-
+## Preview
+<p>
+<img src="https://github.com/bonniepeng2002/Apollo/blob/main/images/Screenshot_1610885276.png" width="350px" height="auto">
+<img src="https://github.com/bonniepeng2002/Apollo/blob/main/images/Screenshot_1610884950.png" width="350px" height="auto">
+<img src="https://github.com/bonniepeng2002/Apollo/blob/main/images/Screenshot_1610884944.png" width="350px" height="auto">
+<img src="https://github.com/bonniepeng2002/Apollo/blob/main/images/Screenshot_1610885187.png" width="350px" height="auto">
+</p>
