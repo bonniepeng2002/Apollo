@@ -1,4 +1,4 @@
-# Meet Apollo, your intuitive virtual nurse
+# Meet Apollo, your intuitive virtual nurse :adhesive_bandage::iphone:
 In the age of a pandemic, limited access to healthcare is our current, devastating reality. <br>
 **Meet Apollo: our solution to this healthcare crisis, and your virtual nurse.**
 
