@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddText">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        android:layout_margin="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/q1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="How are you feeling today?"
+                android:textColor="@color/purple_500"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.197"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/ans1"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="4dp"
+                android:inputType="textMultiLine"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.062"
+                app:layout_constraintStart_toStartOf="@+id/q1"
+                app:layout_constraintTop_toBottomOf="@+id/q1" />
+
+            <TextView
+                android:id="@+id/q2"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="What symptoms do you have?"
+                android:textColor="@color/purple_500"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/q1"
+                app:layout_constraintTop_toBottomOf="@+id/ans1" />
+
+            <EditText
+                android:id="@+id/ans2"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="4dp"
+                android:inputType="textMultiLine"
+                app:layout_constraintStart_toStartOf="@+id/q2"
+                app:layout_constraintTop_toBottomOf="@+id/q2" />
+
+            <TextView
+                android:id="@+id/q3"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Is there anything else you want to talk about?"
+                android:textColor="@color/purple_500"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/q2"
+                app:layout_constraintTop_toBottomOf="@+id/ans2" />
+
+            <EditText
+                android:id="@+id/ans3"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginHorizontal="30dp"
+                android:layout_marginTop="4dp"
+                android:inputType="textMultiLine"
+                app:layout_constraintStart_toStartOf="@+id/ans2"
+                app:layout_constraintTop_toBottomOf="@+id/q3" />
+
+            <Button
+                android:id="@+id/done"
+                style="@style/Widget.AppCompat.ImageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginBottom="28dp"
+                android:src="@drawable/ic_baseline_check_24"
+                android:text="DONE"
+                app:backgroundTint="@color/purple_700"
+                app:cornerRadius="40dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ans3"
+                app:layout_constraintVertical_bias="0.945" />
+
+            <Button
+                android:id="@+id/cancel"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="45dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginBottom="28dp"
+                android:text="X"
+                android:textColor="@color/purple_700"
+                android:textSize="19sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/done" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
